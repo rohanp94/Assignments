@@ -6,7 +6,7 @@ public static void main(String[] args) {
 		
 		
 		
-		String [][][] semester= {
+		String [][][] sem= {
 				{
 					//semester 1 and 6 subject along with marks
 					{"Mathematics1", "78"},
@@ -60,10 +60,10 @@ public static void main(String[] args) {
 		};
 		
 		// Print semester 3 :- Subject 4 and Subject 5 names and Marks Respectively 
-		System.out.println(semester[2][2][0]+":-"+semester[2][2][1]+" And "+semester[2][3][0]+":-"+semester[2][3][1]);
+		System.out.println(sem[2][2][0]+":-"+sem[2][2][1]+" And "+sem[2][3][0]+":-"+sem[2][3][1]);
 		
 		// Print semester 5 :- Subject 3 and Subject 6 names and Marks Respectively 
-		System.out.println(semester[4][2][0]+":-"+semester[4][2][1]+" And "+semester[4][5][0]+":-"+semester[4][5][1]);
+		System.out.println(sem[4][2][0]+":-"+sem[4][2][1]+" And "+sem[4][5][0]+":-"+sem[4][5][1]);
 	}
 
 }

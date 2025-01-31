@@ -8,6 +8,8 @@ import java.util.Map;
 public class Assignment4 {
 
 	public static void main(String[] args) {
+		
+		// create the hashmap to store the row 1 data
 
 		Map<String, String> row1 = new HashMap<String, String>();
 		row1.put("Employee ID", "E001");
@@ -19,6 +21,8 @@ public class Assignment4 {
 		row1.put("Salary", "75000");
 		row1.put("Email ID", "alice@example.com");
 		row1.put("Contact Number", "9876543213");
+		
+		// create the hashmap to store the row 2 data
 
 		Map<String, String> row2 = new HashMap<String, String>();
 		row2.put("Employee ID", "E002");
@@ -30,6 +34,8 @@ public class Assignment4 {
 		row2.put("Salary", "85000");
 		row2.put("Email ID", "bob@example.com");
 		row2.put("Contact Number", "9876543214");
+		
+		// create the hashmap to store the row 3 data
 
 		Map<String, String> row3 = new HashMap<String, String>();
 		row3.put("Employee ID", "E003");
@@ -46,8 +52,6 @@ public class Assignment4 {
 		email.add(row1);
 		email.add(row2);
 		System.out.println("Email ID:" + email.get(1).get("Email ID"));
-		
-		
 		
 
 	}
