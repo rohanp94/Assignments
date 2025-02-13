@@ -42,9 +42,6 @@ public class Assignment11 {
 			k++;
 		}
 		System.out.println(num2 + " to the power " + pow2 + " is :" + sum2);
-		
-		
-
 
 	}
 
